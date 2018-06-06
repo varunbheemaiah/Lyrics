@@ -9,10 +9,8 @@
     <div class="title">
       <h3>Songs</h3>
       <ul>
-        {% for i in songs %}
-          {% for j in links %}
-            <li><a href={{j}}>{{i}}</a></li>
-          {% endfor %}
+        {% for (i,j) in zip(songs,links) %}
+            <li><a href="{{j}}">{{i}}</a></li>
         {% endfor %}
       </ul>
   </body>
