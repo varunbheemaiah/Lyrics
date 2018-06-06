@@ -1,0 +1,42 @@
+body
+{
+  font-family: Segoe UI;
+  font-size: 30px;
+  align-items: center;
+  background: #8a8a8a;
+  color: #032C57;
+}
+
+a:link
+{
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #7c7c7c;
+  text-decoration: underline;
+}
+
+a:active
+{
+  color: blue;
+  text-decoration: underline;
+}
+
+.title
+{
+  background-color: #3b3b3b;
+}
+
+h3
+{
+  color: #8a8a8a;
+}
